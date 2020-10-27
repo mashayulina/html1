@@ -5,10 +5,42 @@
     <meta charset="UTF-8">
     <meta name="author" content="Юлина Мария">
     <title>Главная</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 
 <body>
+    <form class="reg"action="обработчик_на_сервере" method="POST">
+        <div>
+            <label for="login">Логин:</label>
+            <input id="login" type="email" placeholder="Введите email" required maxlength="10" autofocus> 
+        </div>
+        
+        <div>
+           <label for="pass">Пароль:</label>
+           <input id="pass" type="password" placeholder="Введите пароль" required minlength="7">
+        </div>
+    
+        <div>
+            <label>Запомнить меня
+                <input type="checkbox" checked>
+            </label>
+        </div>
+    
+        <div>
+            <input type="submit" value="Войти">
+        </div>
+    </form>
+    <form class="reg" method="LINK" action="reg.html" target="blank">
+        <input type="submit" value="Зарегистрироваться">
+    </form>
+    <form>
+        
+    </form>
+
+    
+    
+    <header class="menu">
     <nav>
         <a href="index.html"><b>Главная</b></a>
         <a href="aricle1.html"><b>Биография</b></a>
@@ -16,7 +48,8 @@
         <a href="msc.html"><b>Музыка Синатры в фильмах</b></a>
         <a href="med.html"><b>Медиатека</b></a>
     </nav>
-<main>
+    </header>
+<main class="container">
     <h2><em>Фрэнк Синатра</em></h2>
     <article>
         <p>Фрэнсис Альберт Синатра – американский певец, актёр, режиссёр и шоумен.
@@ -27,7 +60,7 @@
         Известен широкой публике особым тембром своего голоса и лирическим стилем вокального исполнения.
         </p>
     <img src="img\1.jpg" alt="300">
-    <a href="aricle1.html"><em>Подробнее</em></a>
+    <a class="more-btn" href="aricle1.html"><em>Подробнее</em></a>
         
     </article>
 </main>

@@ -19,6 +19,11 @@ footer {
     padding: 0px;
     margin: 0px;
     text-align: center;
+    display: block;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(70deg,#bda3d5 50%);
+    background: -o-linear-gradient(20deg, #bda3d5 50%);
+    background: linear-gradient(20deg, #bda3d5 50%);
 }
 
 a { 
@@ -79,7 +84,7 @@ input[type=text], input[type=password] {
 .reg {
     text-align: right;
     background-size: cover;
-    border: black;
+    display: block;
 }
 h2 {
     font-weight: 400;

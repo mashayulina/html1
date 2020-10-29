@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.forms {
+    background-image: url(../img/6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.reg:before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: aquamarine;
+    z-index: -1;
+}
+.reg form {
+    width: 450px;
+    border-radius: 10px;
+    background: aquamarine;
+    padding: 40px;
+}
+input {
+    border-style: none;
+    outline-style: none;
+    background: transparent;
+}
+input[type=text],
+input[type=password] {
+width: 400px;
+border-bottom: 2px solid white;
+border-radius: 0;
+color: teal;
+padding: 0 0 5px 30px; /* для формы авторизации*/
+}

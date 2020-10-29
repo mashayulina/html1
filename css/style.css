@@ -57,6 +57,9 @@ th:first-child {
 td:first-child {
     border-right: 1px solid black;
 }
+td:hover {
+    background: #555def;
+}
 th, td {
     padding: 10px;
     background: #efefef;
@@ -83,9 +86,11 @@ input[type=text], input[type=password] {
 }
 .reg {
     text-align: right;
+    margin:5px 10px 15px 10px;
     background-size: cover;
     display: block;
 }
+
 h2 {
     font-weight: 400;
     font-style: italic;
@@ -101,3 +106,4 @@ h2 {
 h3 {
     color: #323680;
 } 
+

@@ -1,13 +1,6 @@
 body {
     margin: 0;
 }
-
-.authorization form {
-    width: 450px;
-    border-radius: 10px;
-    background: aquamarine;
-    padding: 40px;
-}
 input {
     border-style: none;
     outline-style: none;
@@ -15,15 +8,17 @@ input {
 }
 input[type=text],
 input[type=password] {
-width: 300px;
-border-bottom: 2px solid white;
-border-radius: 0;
-color: teal;
-padding: 0 0 5px 30px; /* для формы авторизации*/
+    width: 300px;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    color: teal;
+    padding: 0 0 5px 30px;
+    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
+    font-family: sans-serif;
 }
 label {
-margin: 20px 20px;
-color: teal;
+   margin: 20px 20px;
+   color: teal;
 }
 .submit {
     color: teal;
@@ -38,11 +33,12 @@ color: teal;
 }
 input[type=text],
 input[type=email] {
-width: 300px;
-border-bottom: 2px solid white;
-border-radius: 0;
-color: teal;
-padding: 0 0 5px 30px; /* для формы авторизации*/
+   width: 300px;
+   border-bottom: 2px solid white;
+   border-radius: 0;
+   color: teal;
+   padding: 0 0 5px 30px; 
+   text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
 }
 
 .enter {
@@ -54,5 +50,9 @@ padding: 0 0 5px 30px; /* для формы авторизации*/
 .p1 {
     color: teal;
     margin: 5px 30px;
+    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
+}
+.dif {
+    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
 }
  

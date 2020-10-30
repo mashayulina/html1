@@ -10,7 +10,8 @@
 
 
 <body>
-    <form class="reg"action="обработчик_на_сервере" method="POST">
+    <link rel="stylesheet" href="css/forms.css">
+    <form class="authorization"action="обработчик_на_сервере" method="POST">
         <div>
             <label for="login">Логин:</label>
             <input id="login" type="email" placeholder="Введите email" required maxlength="10" autofocus> 
@@ -28,11 +29,11 @@
         </div>
     
         <div>
-            <input type="submit" value="Войти">
+            <button type="submit" class="submit" name="submitbtn" value="Войти">Войти</button>
         </div>
     </form>
-    <form class="reg" method="LINK" action="reg.html" target="blank">
-        <input type="submit" value="Зарегистрироваться">
+    <form class="authorization" method="LINK" action="reg.html" target="blank">
+       <p class="p1">Нет аккаунта?<a class="enter" href="reg.html">Нажмите сюда</a></p>
     </form>
     <form>
         

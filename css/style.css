@@ -37,14 +37,19 @@ ul {
 }
 
 .container {
-max-width: 1000px;
-margin: 0 auto;
-font-weight : normal;
+   max-width: 1000px;
+   margin: 0 auto;
+   font-weight : normal;
 }
 
 img {
-  width: 100%;
-  height: auto;  
+  display: block;
+  width: 80%;
+  height: auto; 
+
+}
+img:hover.more-btn{
+    display: block;
 }
 
 table {
@@ -64,6 +69,7 @@ td:first-child {
 }
 
 td:hover {
+    cursor: none;
     background: #555def;
 }
 
@@ -82,11 +88,13 @@ th {
 }
 
 .more-btn {
+    color: teal;
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
 }
+
 
 h2 {
     font-weight: 400;

@@ -6,11 +6,11 @@
     <meta name="author" content="Юлина Мария">
     <title>Главная</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/forms.css">
 </head>
 
 
 <body>
-    <link rel="stylesheet" href="css/forms.css">
     <form class="authorization"action="обработчик_на_сервере" method="POST">
         <div class="dif">
             <label for="login">Логин:</label>
@@ -32,12 +32,38 @@
             <button type="submit" class="submit" name="submitbtn" value="Войти">Войти</button>
         </div>
     </form>
-    <form class="authorization" method="LINK" action="reg.html" target="blank">
-       <p class="p1">Нет аккаунта?<a class="enter" href="reg.html">Нажмите сюда</a></p>
+    <form class="authorization" action="reg.html">
+        <button type="submit" class="reg" name="reg" value="Зарегистрироваться">Зарегистрироваться</button>
     </form>
-    <form>
-        
-    </form>
+    
+    
+    <a class="modal" href="#ModalOpen" title="reg">Зарегистрироваться</a>
+    <div id="ModalOpen" class="Window">
+    <div>
+    <a href="#close" title="Закрыть" class="close">X</a>
+    <form class="forms" action="обработчик_на_сервере" method="POST[]">
+        <h1>Регистрация</h1>
+        <p>Заполните эту форму,чтобы создать новый аккаунт</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input id="email" type="text" placeholder="Введите Email" name="email" maxlength="14" required autofocus>
+    
+        <label for="psw"><b>Пароль</b></label>
+        <input id="psw" type="password" placeholder="Введите пароль" name="psw" minlength="8" required>
+    
+        <label for="psw-repeat"><b>Повторите пароль</b></label>
+        <input id="psw-repeat" type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+        <hr>
+        <label>Я даю свое согласие на обработку данных
+        <input type="checkbox">
+        </label>
+        <li>
+          <button class="registerbtn" type="submit">Создать аккаунт</button>
+        </li>
+  </form>  
+    </div>
+    </div>
 
     
     
@@ -46,7 +72,7 @@
         <a  href="index.html"><b>Главная</b></a>
         <a  href="aricle1.html"><b>Биография</b></a>
         <a  href="film.html"><b>Фильмография</b></a>
-        <a  href="msc.html"><b>Музыка Синатры в фильмах</b></a>
+        <a  href="msc.html"><b>Саундтреки</b></a>
         <a  href="med.html"><b>Медиатека</b></a>
     </nav>
     </header>

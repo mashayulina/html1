@@ -20,9 +20,10 @@ label {
    margin: 20px 20px;
    color: teal;
 }
-.submit {
+.submit, .reg {
     color: teal;
     margin: 0 20px;
+    margin-bottom: 5px;
 	cursor: pointer;
 	border: 1px solid #cecece;
 	background: #f6f6f6;
@@ -47,11 +48,7 @@ input[type=email] {
     background: #ffc;
     padding: 2px; 
 }
-.p1 {
-    color: teal;
-    margin: 5px 30px;
-    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
-}
+
 .dif {
     text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
 }
